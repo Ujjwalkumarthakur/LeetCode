@@ -1,0 +1,10 @@
+#1st method
+
+
+update salary set sex=case sex when 'm' then 'f' when 'f' then 'm' end;
+
+
+# 2nd method
+
+UPDATE Salary 
+SET sex=IF(sex='f','m','f');
