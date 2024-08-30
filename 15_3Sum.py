@@ -1,3 +1,4 @@
+"""
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
@@ -20,11 +21,12 @@ class Solution:
                     j += 1
                     k -= 1
         return triplets
+"""        
 
 
         #second solution 
 
-
+"""
         class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
 
@@ -55,3 +57,4 @@ class Solution:
                     l=l+1
                     r=r-1
         return res                            
+"""        
