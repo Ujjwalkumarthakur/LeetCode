@@ -28,7 +28,7 @@ class Solution:
         class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
 
-        res[]
+        res=[]
         nums.sort()
 
         length = len(nums)
@@ -45,7 +45,7 @@ class Solution:
                     l=L+1
                 elif total >0:
                     r=r-1
-                else
+                else:
                     res.append([nums[i],nums[l],nums[r]])
                     while l<r and nums[l]==nums[l+1]:
                         l=l+1
